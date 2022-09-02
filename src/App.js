@@ -3,6 +3,7 @@ import "./App.css";
 
 function App() {
   useEffect(() => {
+    console.log("parent", window.parent);
     window.parent.postMessage("im the man", "*");
   }, []);
 
