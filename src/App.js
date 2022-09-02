@@ -18,7 +18,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>TEST</h1>
-        <h1>{JSON.stringify(error)}</h1>
+        <h1 style={{ height: 50, weight: 50, backgroundColor: "red" }}>
+          {JSON.stringify(error)}
+        </h1>
       </header>
     </div>
   );
